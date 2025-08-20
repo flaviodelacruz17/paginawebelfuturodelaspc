@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página 1 - Computación e Informática</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ======= Barra superior (Banner + gif) ======= -->
+  <div class="top-bar">
+    <div class="led-frame">
+      <img class="banner-img" src="imagenes/banner.png" alt="Banner del proyecto">
+    </div>
+    <div class="top-right-gif">
+      <a href="PAGINA2.html">
+        <img src="imagenes/mi_gift.gif" alt="Logo animado">
+      </a>
+    </div>
+  </div>
+
+  <!-- ======= Encabezado ======= -->
+  <header>
+    <h1>BIENVENIDOS A COMPUTACIÓN E INFORMÁTICA</h1>
+    <img class="under-title-gif" src="imagenes/Animacionproyecto.gif" alt="Animación del proyecto">
+
+    <div class="navigation-links">
+      <a href="PAGINA2.html" class="nav-link">🏠 Inicio</a>
+      <a href="PAGINA3.html" class="nav-link">💻 Explorar</a>
+      <a href="PAGINA4.html" class="flash-button">🚀 Acción Flash</a>
+    </div>
+  </header>
+
+  <!-- ======= POPUP ======= -->
+  <div class="overlay" id="overlay">
+    <div class="popup">
+      <span class="cerrar" id="cerrar">&times;</span>
+      <img src="imagenes/ProyectoFotomontage.png" alt="Bienvenida">
+      <br>
+      <button class="btn-ingresar" id="ingresar">Ingresar</button>
+    </div>
+  </div>
+
+  <main class="main-container">
+
+    <!-- ======= Bienvenida ======= -->
+    <section class="info-section">
+      <div class="welcome-text">
+        <p>🌟 Bienvenido a nuestra <span class="highlight">Página central</span>.</p>
+        <p>Aquí comienza el recorrido por el <span class="highlight">mundo de la computación e informática</span>, conociendo sus aplicaciones y el futuro de la tecnología.</p>
+      </div>
+    </section>
+
+    <!-- ======= Secciones principales ======= -->
+    <section class="categories-section">
+      <h2 class="section-title">📌 Accesos principales</h2>
+      <div class="categories-grid">
+        <div class="category-card" onclick="window.location.href='PAGINA2.html'">
+          <h3 class="category-title">💻 Registrate</h3>
+          <img src="https://static.vecteezy.com/system/resources/previews/029/923/254/non_2x/login-page-on-laptop-screen-notebook-and-online-login-form-sign-in-page-user-profile-access-to-account-concepts-illustration-vector.jpg" alt="Explorar" class="category-image">
+          <p class="category-description">Pagina de registro e información</p>
+        </div>
+        <div class="category-card" onclick="window.location.href='PAGINA3.html'">
+          <h3 class="category-title">📰 Venta</h3>
+          <img src="https://media.falabella.com/falabellaPE/133317310_01/w=1500,h=1500,fit=pad" alt="Noticias" class="category-image">
+          <p class="category-description">Venta de Pcs para el gusto de todos</p>
+        </div>
+        <div class="category-card" onclick="window.location.href='PAGINA4.html'">
+          <h3 class="category-title">🚀 Acción Flash</h3>
+          <img src="https://www.intel.la/content/dam/www/central-libraries/us/en/images/2023-01/s9-u05-26-install-motherboard-original-rwd.jpg.rendition.intel.web.720.405.jpg" alt="Acción Flash" class="category-image">
+          <p class="category-description">Arma la Pc de tus sueños</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Noticias ======= -->
+    <section class="news-section">
+      <h2 class="section-title">📰 Noticias recientes</h2>
+      <div class="news-grid">
+        <article class="news-item">
+          <h3>Avances en IA</h3>
+          <p>La inteligencia artificial está revolucionando el desarrollo de software y la productividad.</p>
+        </article>
+        <article class="news-item">
+          <h3>Cloud Computing</h3>
+          <p>El uso de servicios en la nube crece exponencialmente en empresas y educación.</p>
+        </article>
+        <article class="news-item">
+          <h3>Ciberseguridad</h3>
+          <p>Proteger la información digital es una prioridad en la era tecnológica actual.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ======= Contacto ======= -->
+    <section class="contact-section">
+      <h2 class="section-title">📧 Contáctanos</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <a href="mailto:70066504@iestpluisnegreiros.edu.pe">
+            📨 Flavio De La Cruz<br>
+            <small>Líder del Proyecto</small>
+          </a>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:71644384@iestpluisnegreiros.edu.pe">
+            📨 Carmen Salazar<br>
+            <small>Frontend</small>
+          </a>
+        </div>
+        <div class="contact-card">
+          <a href="mailto:21541360@iestpluisnegreiros.edu.pe">
+            📨 Arelly Ormeño<br>
+            <small>Diseñadora UX/UI</small>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Ubicación ======= -->
+    <section class="location-section">
+      <h2 class="section-title">📍 Ubicación</h2>
+      <div class="location-container">
+        <div class="location-info">
+          <div class="location-title">🏫 Dirección principal</div>
+          <div class="address-text">
+            📍 Jr. Tacna 3269<br>
+            San Martín de Porres, Lima - Perú
+          </div>
+          <a href="https://maps.app.goo.gl/Y1B587hsK1YmrkPn6" target="_blank" class="location-button">🗺️ Ver mapa</a>
+        </div>
+        <div class="map-container">
+          <div class="map-overlay">📌 Aquí estamos</div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.0234567890123!2d-77.0869!3d-12.0123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDAwJzQ0LjMiUyA3N8KwMDUnMTIuOCJX!5e0!3m2!1ses!2spe!4v1234567890123!5m2!1ses!2spe"
+                  allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="footer-content">
+      <p class="footer-date">🗓️ PROYECTO PAGINA WEB VERSION 2.0  EDITADO 19/08/2025</p>
+      <p class="footer-team"><strong>Equipo:</strong> Flavio De La Cruz • Carmen Salazar • Arelly Ormeño</p>
+    </div>
+  </footer>
+
+  <!-- ======= JS Animaciones ======= -->
+  <script>
+    // Cerrar popup
+    const overlay = document.getElementById("overlay");
+    document.getElementById("cerrar").addEventListener("click", ()=> overlay.style.display = "none");
+    document.getElementById("ingresar").addEventListener("click", ()=> overlay.style.display = "none");
+
+    // Parallax suave en tarjetas
+    document.addEventListener('mousemove', (e) => {
+      const mouseX = e.clientX / window.innerWidth;
+      const mouseY = e.clientY / window.innerHeight;
+      const categories = document.querySelectorAll('.category-card');
+      categories.forEach((card, index) => {
+        const speed = (index + 1) * 0.5;
+        card.style.transform = `translateX(${mouseX * speed}px) translateY(${mouseY * speed}px)`;
+      });
+    });
+
+    // Animación de aparición con scroll
+    const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('section').forEach(section => {
+      section.style.opacity = '0';
+      section.style.transform = 'translateY(50px)';
+      section.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+      observer.observe(section);
+    });
+
+    // Hover mejorado en tarjetas
+    document.querySelectorAll('.category-card').forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.style.transform = 'translateY(-15px) scale(1.02) rotateY(5deg)';
+      });
+      card.addEventListener('mouseleave', function() {
+        this.style.transform = 'translateY(0) scale(1) rotateY(0)';
+      });
+    });
+
+    // Efecto hover para el mapa
+    const mapContainer = document.querySelector('.map-container');
+    const mapOverlay = document.querySelector('.map-overlay');
+    mapContainer.addEventListener('mouseenter', () => {
+      mapOverlay.style.opacity = '0.8';
+      mapOverlay.style.transform = 'scale(1.05)';
+    });
+    mapContainer.addEventListener('mouseleave', () => {
+      mapOverlay.style.opacity = '1';
+      mapOverlay.style.transform = 'scale(1)';
+    });
+  </script>
+<script src="background-effects.js"></script>
+</body>
+</html>
+
+
+
+

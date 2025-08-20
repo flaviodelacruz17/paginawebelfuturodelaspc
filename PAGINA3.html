@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es" class="page-3">
+<head>
+  <meta charset="UTF-8">
+  <title>El Futuro de las PCs</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="header">
+    <h1>🖥️ El Futuro de las PCs</h1>
+  </div>
+  
+  <div class="container">
+    <div class="menu">
+      <h3>Categorías</h3>
+      <button class="filter-btn active" data-category="all">TODAS</button>
+      <button class="filter-btn" data-category="pc">PC</button>
+      <button class="filter-btn" data-category="gamer">GAMER</button>
+      <button class="filter-btn" data-category="estudiante">ESTUDIANTE</button>
+      <button class="filter-btn" data-category="oficina">OFICINA</button>
+      <button class="filter-btn" data-category="ingenieria">INGENIERÍA</button>
+    </div>
+    
+    <div class="gallery-container">
+      <div class="results-count" id="resultsCount">Mostrando 12 computadoras</div>
+      
+      <div class="gallery">
+        <!-- PC Básicas -->
+        <div class="pc-card" data-category="pc">
+          <div class="category-tag">PC Básica</div>
+          <img src="https://i.ytimg.com/vi/VqBkUZ1t4hE/maxresdefault.jpg" alt="PC Básica 1">
+          <h3>PC Básica Económica</h3>
+          <div class="specs">
+            • Intel Celeron G5905<br>
+            • 4GB RAM DDR4<br>
+            • 240GB SSD<br>
+            • Ideal para tareas básicas
+          </div>
+        </div>
+        
+        <div class="pc-card" data-category="pc">
+          <div class="category-tag">PC Básica</div>
+          <img src="https://compumarket.pe/fotos/producto_12454_lg.jpg" alt="PC Home">
+          <h3>PC Home Essential</h3>
+          <div class="specs">
+            • AMD Ryzen 3 3200G<br>
+            • 8GB RAM DDR4<br>
+            • 500GB SSD<br>
+            • Navegación y multimedia
+          </div>
+        </div>
+        
+        <!-- Gaming PCs -->
+        <div class="pc-card" data-category="gamer">
+          <div class="category-tag">Gaming</div>
+          <img src="https://media.falabella.com/falabellaPE/126389939_01/w=1500,h=1500,fit=pad" alt="Gaming Pro">
+          <h3>Gaming Pro RGB</h3>
+          <div class="specs">
+            • Intel Core i5-12400F<br>
+            • 16GB RAM DDR4<br>
+            • RTX 4060 8GB<br>
+            • 1TB NVMe SSD
+          </div>
+        </div>
+        
+        <div class="pc-card" data-category="gamer">
+          <div class="category-tag">Gaming</div>
+          <img src="https://esis.pe/wp-content/uploads/2025/05/PC-IMAGENES-WEB-19-768x768.png" alt="Gaming Ultra">
+          <h3>Gaming Ultra 4K</h3>
+          <div class="specs">
+            • AMD Ryzen 7 5800X<br>
+            • 32GB RAM DDR4<br>
+            • RTX 4070 Super<br>
+            • 2TB NVMe SSD
+          </div>
+        </div>
+        
+        <div class="pc-card" data-category="gamer">
+          <div class="category-tag">Gaming</div>
+          <img src="https://i.ebayimg.com/images/g/xEgAAOSwcURkfVFh/s-l400.jpg" alt="Gaming Beast">
+          <h3>Gaming Beast Edition</h3>
+          <div class="specs">
+            • Intel Core i9-13900K<br>
+            • 64GB RAM DDR5<br>
+            • RTX 4090 24GB<br>
+            • 4TB NVMe SSD
+          </div>
+        </div>
+        
+        <!-- Estudiantes -->
+        <div class="pc-card" data-category="estudiante">
+          <div class="category-tag">Estudiante</div>
+          <img src="https://rymportatiles.com.pe/cdn/shop/files/PC-ESCRITORIO-I3-8GB-512GB.png?v=1699315429&width=1214" alt="Student Basic">
+          <h3>Student Basic</h3>
+          <div class="specs">
+            • Intel Core i3-12100<br>
+            • 8GB RAM DDR4<br>
+            • 512GB SSD<br>
+            • Perfecto para estudios
+          </div>
+        </div>
+        
+        <div class="pc-card" data-category="estudiante">
+          <div class="category-tag">Estudiante</div>
+          <img src="https://images.kabum.com.br/produtos/fotos/sync_mirakl/468035/Pc-Computador-Tech-Power-Cpu-Amd-Ryzen-5-5600g-16gb-Ram-Ddr4-ssd-1tb-M2-Nvme-Windows-11_1706624299_gg.jpg" alt="Student Plus">
+          <h3>Student Plus</h3>
+          <div class="specs">
+            • AMD Ryzen 5 5600G<br>
+            • 16GB RAM DDR4<br>
+            • 1TB SSD<br>
+            • Multitarea y proyectos
+          </div>
+        </div>
+        
+        <!-- Oficina -->
+        <div class="pc-card" data-category="oficina">
+          <div class="category-tag">Oficina</div>
+          <img src="https://esis.pe/wp-content/uploads/2024/04/PC-IMAGENES-WEB-28.png" alt="Office Pro">
+          <h3>Office Pro Business</h3>
+          <div class="specs">
+            • Intel Core i5-12500<br>
+            • 16GB RAM DDR4<br>
+            • 512GB SSD<br>
+            • Productividad empresarial
+          </div>
+        </div>
+        
+        <div class="pc-card" data-category="oficina">
+          <div class="category-tag">Oficina</div>
+          <img src="https://demo.compuchip.com.pe/1996-large_default/pc-intel-core-i7-12700-210ghz-z790-32gb-ddr4-1tb-ssd-m2-monitor-27.jpg" alt="Office Elite">
+          <h3>Office Elite</h3>
+          <div class="specs">
+            • Intel Core i7-12700<br>
+            • 32GB RAM DDR4<br>
+            • 1TB SSD + 2TB HDD<br>
+            • Alto rendimiento oficina
+          </div>
+        </div>
+        
+        <!-- Ingeniería -->
+        <div class="pc-card" data-category="ingenieria">
+          <div class="category-tag">Ingeniería</div>
+          <img src="https://www.magitech.pe/media/catalog/product/cache/1/small_image/295x295/9df78eab33525d08d6e5fb8d27136e95/s/e/servidor-mt-elite-server-pro.jpg" alt="Workstation">
+          <h3>Workstation Pro</h3>
+          <div class="specs">
+            • Intel Xeon W-1270P<br>
+            • 64GB RAM ECC<br>
+            • Quadro RTX 4000<br>
+            • 2TB NVMe + 4TB HDD
+          </div>
+        </div>
+        
+        <div class="pc-card" data-category="ingenieria">
+          <div class="category-tag">Ingeniería</div>
+          <img src="https://microless.com/cdn/products/739b8f71a0d4bca69f78a611e659e179-hi.jpg" alt="CAD Station">
+          <h3>CAD Station Ultimate</h3>
+          <div class="specs">
+            • AMD Threadripper PRO<br>
+            • 128GB RAM ECC<br>
+            • RTX 6000 Ada<br>
+            • 8TB NVMe RAID
+          </div>
+        </div>
+        
+        <div class="pc-card" data-category="ingenieria">
+          <div class="category-tag">Ingeniería</div>
+          <img src="https://www.magitech.pe/media/catalog/product/cache/1/image/600x/040ec09b1e35df139433887a97daa66f/7/_/7_3_214_2_1_1_1_1_1.jpg" alt="Render Beast">
+          <h3>Render Beast Server</h3>
+          <div class="specs">
+            • Dual Xeon Platinum<br>
+            • 256GB RAM ECC<br>
+            • Dual RTX 6000<br>
+            • 16TB NVMe Storage
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bottom-button">
+    <a href="index.html">Volver a la Página Principal</a>
+  </div>
+
+  <script>
+    // Sistema de filtrado de computadoras
+    class PCFilter {
+      constructor() {
+        this.filterButtons = document.querySelectorAll('.filter-btn');
+        this.pcCards = document.querySelectorAll('.pc-card');
+        this.resultsCount = document.getElementById('resultsCount');
+        this.currentFilter = 'all';
+        
+        this.init();
+      }
+      
+      init() {
+        // Añadir event listeners a los botones
+        this.filterButtons.forEach(button => {
+          button.addEventListener('click', (e) => {
+            const category = e.target.dataset.category;
+            this.filterPCs(category);
+            this.updateActiveButton(e.target);
+          });
+        });
+        
+        // Mostrar conteo inicial
+        this.updateResultsCount('all');
+      }
+      
+      filterPCs(category) {
+        this.currentFilter = category;
+        let visibleCount = 0;
+        
+        this.pcCards.forEach(card => {
+          const cardCategory = card.dataset.category;
+          
+          if (category === 'all' || cardCategory === category) {
+            card.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+        
+        this.updateResultsCount(category, visibleCount);
+        this.animateResults();
+      }
+      
+      updateActiveButton(activeButton) {
+        this.filterButtons.forEach(button => {
+          button.classList.remove('active');
+        });
+        activeButton.classList.add('active');
+      }
+      
+      updateResultsCount(category, count = null) {
+        if (count === null) {
+          count = category === 'all' ? this.pcCards.length : 
+                  document.querySelectorAll(`[data-category="${category}"]`).length;
+        }
+        
+        const categoryNames = {
+          all: 'todas las',
+          pc: 'PC básicas',
+          gamer: 'gaming',
+          estudiante: 'para estudiantes',
+          oficina: 'de oficina',
+          ingenieria: 'de ingeniería'
+        };
+        
+        const categoryText = categoryNames[category] || category;
+        this.resultsCount.textContent = `Mostrando ${count} computadoras ${categoryText}`;
+      }
+      
+      animateResults() {
+        // Pequeña animación para hacer más smooth la transición
+        const visibleCards = document.querySelectorAll('.pc-card:not(.hidden)');
+        visibleCards.forEach((card, index) => {
+          card.style.animationDelay = `${index * 0.1}s`;
+          card.style.animation = 'none';
+          setTimeout(() => {
+            card.style.animation = 'fadeInUp 0.5s ease forwards';
+          }, 10);
+        });
+      }
+    }
+    
+    // Inicializar el sistema de filtrado cuando se carga la página
+    document.addEventListener('DOMContentLoaded', () => {
+      new PCFilter();
+    });
+  </script>
+<script src="background-effects.js"></script>  
+</body>
+</html>
+
